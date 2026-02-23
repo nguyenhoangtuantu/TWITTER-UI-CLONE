@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Home/X</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <!---------------SIDEBAR LEFT---------- -->
+      <aside class="sidebar-left">
+        <div class="top-section">
+          <a href="#" class="sidebar-logo">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <!-- Nav left -->
+          <nav>
+            <ul class="nav-links">
+              <li>
+                <a href="https://x.com/home" class="nav-item active">
+                  <i class="fa-solid fa-house"></i>
+                  <span>Home</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="nav-item"
+                  ><i class="fa-solid fa-magnifying-glass"></i>
+                  <span>Explore</span></a
+                >
+              </li>
+
+              <li>
+                <a href="" class="nav-item">
+                  <i class="fa-regular fa-bell"></i>
+                  <span>Notification</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="nav-item">
+                  <i class="fa-solid fa-user-plus"></i>
+                  <span>Follow</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-item">
+                  <i class="fa-regular fa-envelope"></i>
+                  <span>Chat</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-item">
+                  <i class="fa-solid fa-circle-dot"></i>
+                  <span>Grok</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-item">
+                  <i class="fa-regular fa-bookmark"></i>
+                  <span>Bookmarks</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-item">
+                  <i class="fa-regular fa-user-group"></i>
+                  <span>Creator Studio</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-item">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <span>Prenium</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-item">
+                  <i class="fa-regular fa-user"></i>
+                  <span>Profile</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-item">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <span>More</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="post-btn">Post</button>
+        </div>
+
+        <div class="bottom-section">
+          <a href="/profile" class="profile-card">
+            <img
+              src="./src/assets/images/avatar.png"
+              alt="RUNE avatar"
+              class="avatar"
+            />
+            <div class="user-info">
+              <strong>RUNE</strong>
+              <span>@tuantu_999</span>
+            </div>
+            <i class="fa-solid fa-ellipsis"></i>
+          </a>
+        </div>
+      </aside>
+
+      <!-- ----------------MAIN------------ -->
+      <main class="timeline">
+        <header class="timeline-header">
+          <!-- ------------- NAV TOP------------- -->
+          <nav class="timeline-title">
+            <ul>
+              <li class="tab active">
+                <a href="#"><span>For you</span></a>
+                <div class="active-indicator"></div>
+              </li>
+              <li class="tab">
+                <a href="#">
+                  <span>Following</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <section class="tweet-box">
+          <!-- ------------- TWEET BOX LEFT------------- -->
+          <div class="tweet-box-left">
+            <a href="/project"
+              ><img
+                src="./src/assets/images/avatar.png"
+                alt="Avatar"
+                class="avatar-small"
+            /></a>
+          </div>
+
+          <!-- ------------- TWEET BOX LEFT------------- -->
+          <div class="tweet-box-right">
+            <div class="input-area">
+              <textarea
+                name="comment"
+                id="comment"
+                placeholder="What is happening?!"
+                rows="1"
+              ></textarea>
+
+              <div class="toolbar">
+                <div class="icons">
+                  <i class="fa-regular fa-image"></i>
+                  <i class="fa-solid fa-list-ul"></i>
+                  <i class="fa-regular fa-face-smile"></i>
+                  <i class="fa-regular fa-calendar-check"></i>
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <button class="tweet-btn-small" disabled>Post</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="show-posts-bar">
+          <span>Show 225 posts</span>
+        </div>
+
+        <!-- ------------- FEED CONTENT------------- -->
+
+        <div class="feed-content">
+          <article class="tweet">
+            <!-- ------------- TWEET LEFT------------- -->
+            <div class="tweet-left">
+              <a href="/project">
+                <img
+                  src="./src/assets/images/avatar.png"
+                  alt="avatar-user"
+                  class="avatar-small"
+                />
+              </a>
+            </div>
+
+            <!-- ------------- TWEET RIGHT------------- -->
+            <div class="tweet-right">
+              <div class="tweet-header">
+                <div class="user-meta">
+                  <strong>RUNE</strong>
+                  <i class="fa-solid fa-patch-check" style="color: #1d9bf0"></i>
+                  <span class="handle">@tuantu_999</span>
+                  <span class="time">· 5h</span>
+                </div>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+
+              <div class="tweet-text">
+                Những đêm dài ngồi trước bàn học, ánh đèn vàng vọt cứ thế chiếu
+                lên trang sách mà lòng mình thì nặng trĩu. Áp lực đè lên từng
+                nhịp thở, từng con chữ như muốn bóp nghẹt mọi suy nghĩ. Có những
+                lúc nước mắt lặng lẽ rơi xuống vở, không phải vì bài khó, mà vì
+                cảm giác mình đang cố hết sức mà vẫn sợ không đủ. Sợ không theo
+                kịp, sợ làm bố mẹ thất vọng, sợ chính bản thân mình sẽ buông tay
+                giữa đường. Nhưng rồi, trong cái mệt mỏi đến tê dại ấy, vẫn có
+                một góc nhỏ trong tim khẽ nói: “Cố thêm chút nữa thôi… dù chỉ
+                một chút nữa thôi.” Dù buồn, dù mệt, dù đôi khi chỉ muốn gục
+                xuống, mình vẫn lau nước mắt, cầm bút lên, cắn răng bước tiếp.
+                Vì biết rằng, nếu hôm nay dừng lại, ngày mai sẽ còn hối tiếc
+                nhiều hơn.
+              </div>
+
+              <div class="tweet-actions">
+                <div class="action-item">
+                  <i class="fa-regular fa-comment"></i> <span>12</span>
+                </div>
+                <div class="action-item">
+                  <i class="fa-solid fa-retweet"></i> <span>5</span>
+                </div>
+                <div class="action-item">
+                  <i class="fa-regular fa-heart"></i> <span>120</span>
+                </div>
+                <div class="action-item">
+                  <i class="fa-solid fa-chart-simple"></i> <span>1.5k</span>
+                </div>
+                <div class="action-item">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </main>
+
+      <!-- -------------SIDEBAR RIGHT------------ -->
+      <aside class="sidebar-right">
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search" />
+        </div>
+
+        <section class="right-card">
+          <h2>What's happening</h2>
+
+          <div class="trend-item">
+            <span class="trend-category">Technology · Trending</span>
+            <strong>#GeminiAI</strong>
+            <span class="tweet-count">50.2K posts</span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+
+          <a href="#" class="show-more">Show more</a>
+        </section>
+
+        <section class="right-card">
+          <h2>Who to follow</h2>
+
+          <div class="follow-item">
+            <img src="avatar.png" class="avatar-small" />
+            <div class="user-meta">
+              <strong>SpaceX</strong>
+              <span>@SpaceX</span>
+            </div>
+            <button class="follow-btn">Follow</button>
+          </div>
+
+          <a href="#" class="show-more">Show more</a>
+        </section>
+      </aside>
+    </div>
+  </body>
+</html>
