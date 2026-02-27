@@ -1,0 +1,138 @@
+.sidebar-left {
+  padding: 0 24px;
+}
+
+.search-bar {
+  position: sticky;
+  top: 0;
+  padding: 12px 0;
+  background-color: var(--bg-primary);
+  z-index: 10;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px 20px 12px 48px;
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-full);
+  color: var(--text-primary);
+  font-size: 15px;
+  font-family: var(--font-family);
+  outline: none;
+  transition: all var(--transition);
+}
+
+.search-bar input:focus {
+  background-color: transparent;
+  border-color: var(--primary);
+}
+
+.search-bar i {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.right-card {
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+
+.right-card h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.trend-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color);
+  position: relative;
+  cursor: pointer;
+  transition: background-color var(--transition);
+}
+
+.trend-item .trend-category {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.trend-item strong {
+  font-size: 15px;
+}
+
+.trend-item .tweet-count {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.trend-item > i {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.follow-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+}
+.follow-item a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-grow: 1;
+}
+
+.follow-item .user-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.follow-item .user-meta strong {
+  font-size: 15px;
+}
+
+.follow-item .user-meta span {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.follow-btn {
+  padding: 8px 16px;
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: opacity var(--transition);
+}
+
+.follow-btn:hover {
+  opacity: 0.85;
+}
+
+.show-more {
+  display: block;
+  padding: 12px 0;
+  color: var(--primary);
+  font-size: 15px;
+  transition: color var(--transition);
+}
+
+.show-more:hover {
+  text-decoration: underline;
+}
