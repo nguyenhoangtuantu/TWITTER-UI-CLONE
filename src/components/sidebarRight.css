@@ -1,5 +1,6 @@
-.sidebar-left {
+.sidebar-right {
   padding: 0 24px;
+  border-left: 1px solid var(--border-color);
 }
 
 .search-bar {
